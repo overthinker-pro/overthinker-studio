@@ -3326,12 +3326,12 @@ img.u-pull-left {
   object-fit: cover;
   margin: 0;
   vertical-align: bottom;
-  max-width: 85%;
+  max-width: 70%;
   margin: 0 auto;
 }
 
 .about-info__text {
-  padding: var(--vspace-3_5) 10vw var(--vspace-2) 0;
+  padding: var(--vspace-1) 10vw var(--vspace-2) 0;
   margin-left: -4rem;
 }
 
@@ -3348,7 +3348,7 @@ img.u-pull-left {
  * ## about expertise
  * -------------------------------------------------------------------- */
 .about-expertise {
-  padding-top: calc(6 * var(--space));
+  padding-top: calc(4 * var(--space));
 }
 
 .about-expertise .skills-list {
@@ -3765,7 +3765,11 @@ img.u-pull-left {
  * ## testimonials
  * ------------------------------------------------------------------- */
 .testimonials {
-  margin-top: var(--vspace-3);
+  margin-top: var(--vspace-2);
+}
+
+.testimonials-heading {
+  margin-bottom: var(--vspace-1_5);
 }
 
 .testimonials .swiper-container {
@@ -3859,7 +3863,7 @@ img.u-pull-left {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .folio-list__item-title {
     font-size: var(--text-md);
     line-height: var(--vspace-0_875);
@@ -3945,7 +3949,7 @@ img.u-pull-left {
   .modal-popup__desc {
     padding: 0 var(--vspace-1) var(--vspace-0_25);
   }
-}
+} */
 
 /* ===================================================================
  * # CONTACT
@@ -3954,7 +3958,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .contact-top {
-  padding-top: var(--vspace-5);
+  padding-top: var(--vspace-3);
   border-top: 1px solid var(--color-border);
 }
 
@@ -3967,6 +3971,7 @@ img.u-pull-left {
   margin-top: var(--vspace-3);
   border-bottom: 1px solid var(--color-border);
 }
+
 
 .contact-bottom .text-pretitle {
   margin-bottom: var(--vspace-0_125);
