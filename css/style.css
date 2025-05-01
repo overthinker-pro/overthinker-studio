@@ -3439,7 +3439,11 @@ img.u-pull-left {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--color-text-light);
-  margin-top: -0.2rem;
+  margin-top: 0.8rem;
+}
+
+.timeline__desc {
+  margin-top: -1rem;
 }
 
 /* ------------------------------------------------------------------- 
