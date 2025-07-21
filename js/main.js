@@ -335,3 +335,6 @@
     ssMoveTo();
   })();
 })(document.documentElement);
+
+// Update the copyright year dynamically
+document.getElementById("year").textContent = new Date().getFullYear();
