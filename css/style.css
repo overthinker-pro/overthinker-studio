@@ -3925,7 +3925,7 @@ img.u-pull-left {
 @media screen and (max-width: 400px) {
   .folio-list .column {
     flex: none;
-    width: 50%;
+    width: 100%;
   }
 
   .folio-list__item {
@@ -3946,10 +3946,10 @@ img.u-pull-left {
     height: auto;
   }
 
-  .folio-list__item-text,
+  /* .folio-list__item-text,
   .folio-list__proj-link {
-    display: none;
-  }
+    /* display: none; 
+  } */
 
   .modal-popup__desc {
     padding: 0 var(--vspace-1) var(--vspace-0_25);
