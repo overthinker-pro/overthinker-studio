@@ -3502,7 +3502,7 @@ img.u-pull-left {
  *
  *
  * ------------------------------------------------------------------- */
-/* 
+
 .s-works {
   padding-top: var(--vspace-5);
   padding-bottom: var(--vspace-3_5);
@@ -3512,9 +3512,10 @@ img.u-pull-left {
   margin-top: 0;
 }
 
---------------------------------------------------------------------
- * ## works portfolio
- * -------------------------------------------------------------------- 
+.text-pretitle .recent-works {
+  padding-bottom: var(--vspace-1_5);
+}
+
 .folio-list {
   --item-min-height: var(--vspace-4_5);
   list-style: none;
@@ -3682,7 +3683,7 @@ img.u-pull-left {
 
 /* ------------------------------------------------------------------- 
  * ## modal popup
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------  */
 .modal-popup {
   max-width: 680px;
   background-color: white;
@@ -3763,7 +3764,7 @@ img.u-pull-left {
 .modal-popup__details:hover {
   background-color: var(--color-body);
   color: white;
-} */
+}
 
 /* ------------------------------------------------------------------- 
  * ## testimonials
@@ -3867,7 +3868,7 @@ img.u-pull-left {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .folio-list__item-title {
     font-size: var(--text-md);
     line-height: var(--vspace-0_875);
@@ -3953,7 +3954,8 @@ img.u-pull-left {
   .modal-popup__desc {
     padding: 0 var(--vspace-1) var(--vspace-0_25);
   }
-} */
+}
+*/
 
 /* ===================================================================
  * # CONTACT
@@ -3975,7 +3977,6 @@ img.u-pull-left {
   margin-top: var(--vspace-3);
   border-bottom: 1px solid var(--color-border);
 }
-
 
 .contact-bottom .text-pretitle {
   margin-bottom: var(--vspace-0_125);
